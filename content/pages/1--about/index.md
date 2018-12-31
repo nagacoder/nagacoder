@@ -1,5 +1,6 @@
 ---
 title: About
+menuTitle: About
 ---
 
 Aku dimana?
