@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: "Darvin Sinaga - Aku Dimana?", // <title>
   shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
   siteDescription: "HeroBlog is a GatsbyJS starter.",
-  siteUrl: "https://nagacoder.github.io",
+  siteUrl: "https://nagacoder.netlify.com",
   // pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
