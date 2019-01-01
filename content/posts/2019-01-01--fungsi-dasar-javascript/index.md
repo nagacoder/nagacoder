@@ -5,14 +5,14 @@ cover: dasar-js.jpg
 author: Darvin Sinaga
 ---
 ### Apa itu function ?
-- Function adalah subprogram yang di rancang untuk mengerjakan suatu tugas terterntu
-- Sebuah fucntion dijalankan ketika function tersebut di panggil
+- Function adalah subprogram yang di rancang untuk mengerjakan suatu tugas tertentu
+- Sebuah function dijalankan ketika function tersebut di panggil
 - Sebuah nilai / values dapat di teruskan di dalam function dan di gunakan di dalamnya
-- Sebuah Fungsi selalu mengembalikan nilai/value. di javascript jika kita tidak menentukan sebuah value return makan otomatis akan me-return undifined
+- Sebuah Fungsi selalu mengembalikan nilai/value. di javascript jika kita tidak menentukan sebuah value `return` maka otomatis akan me-return `undifined`
 
 ### Mendefenisikan sebuah Function
 Ada beberapa cara berbeda untuk mendefinisikan fungsi dalam JavaScript:
-Deklarasi sebuah function di defenisikan dengan `function`.Untuk membuat sebuah function deklarasikan dengan `function` dan di ikuti dengan nama function yang akan kita gunakan
+Deklarasi sebuah `function` di defenisikan dengan `function`.Untuk membuat sebuah fungsi deklarasikan dengan `function` dan diikuti dengan nama fungsi yang akan kita gunakan
 
 ```javascript
 function name(parameters){
@@ -33,6 +33,7 @@ let name = (parameters) => {
 ```
 ### Parameters vs. Arguments.
 Jika Anda baru mengenal JavaScript, Anda mungkin telah mendengar istilah parameter dan argumen yang digunakan secara bergantian. Meskipun sangat mirip, ada perbedaan penting untuk dibuat antara dua kata kunci ini.
+
 *Parameter* digunakan ketika mendefinisikan suatu fungsi, itu adalah nama yang dibuat dalam definisi fungsi. Bahkan, selama  fungsi itu di defenisikan kita dapat mengirimkan hingga 255 parameter! Parameter dipisahkan dengan koma di ```()```. Berikut ini contoh dengan dua parameter - param1 & param2:
 ```javascript
 const param1 = true;
@@ -41,22 +42,23 @@ function twoParams(param1, param2){
   console.log(param1, param2);
 }
 ```
-*Arguments* adalah nilai yang diterima fungsi dari setiap parameter ketika fungsi dieksekusi (dipanggil). Dalam contoh di atas, dua argumen kami ```true``` & ```false```.
+
+*Arguments* adalah nilai yang diterima fungsi dari setiap parameter ketika fungsi dieksekusi (dipanggil). Dalam contoh di atas, dua argumen kita ```true``` & ```false```.
 ## Invoking a Function
 Fungsi dijalankan ketika fungsi itu dipanggil. Kita dapat memanggil fungsi dengan merujuk  ke nama fungsi, diikuti oleh tanda kurung yang terbuka dan tertutup: ```()```.
 Mari kita lihat contohnya
-Pertama, kami akan mendefinisikan fungsi bernama ```logName```. Fungsi ini akan mengambil satu parameter, ```name```. Ketika dijalankan, fungsi akan mencetak ```name``` itu kembali ke konsol:
+Pertama, kita akan mendefinisikan fungsi bernama ```logName```. Fungsi ini akan mengambil satu parameter, ```name```. Ketika dijalankan, fungsi akan mencetak ```name``` itu kembali ke konsol:
 ```javascript
 function logName(name){
   console.log(name);
 }
 ```
-untuk menjalankan funsi tersebut kita bisa memanggilnya dengan melempar satu parameter misalnya disini kita akan menjalankan funsi dengan nama `aliga`
+untuk menjalankan fungsi tersebut kita bisa memanggilnya dengan melempar satu parameter misalnya disini kita akan menjalankan fungsi dengan nama `aliga`
 ```javascript
 logName('aliga');
 //aliga
 ```
-jika funsi yang kita tulis tidak membutuhkan parameter maka kita hanya perlu mengosongkan tanda `()` di funsi kita
+jika fungsi yang kita tulis tidak membutuhkan parameter maka kita hanya perlu mengosongkan tanda `()` di fungsi kita
 ```javascript
 function sapa(){
   console.log('Hello Aliga');
@@ -105,7 +107,7 @@ function test(){
 test();
 // true
 ```
-pada code diatas , `return`  pertama akan segera menghentikan eksekusi fungsi dan menyebabkan fungsi  mengembalikan `true`. Kode pada baris tiga: `return false;` tidak pernah dieksekusi. karena funsi sudah berhenti
+pada code diatas , `return`  pertama akan segera menghentikan eksekusi fungsi dan menyebabkan fungsi  mengembalikan `true`. Kode pada baris tiga: `return false;` tidak pernah dieksekusi. karena fungsi sudah berhenti
 
 ### Function Objects
 Dalam JavaScript, apa pun yang bukan tipe primitif (``undefined``, `null`, `boolean`, `number`, atau `string`) adalah objek,Objek dalam JavaScript sangat fleksibel. Karena itu, kita bahkan dapat melewatkan fungsi sebagai parameter ke fungsi lain
@@ -114,4 +116,4 @@ Ketika suatu fungsi menerima fungsi lain sebagai parameter, atau mengembalikan f
 `Array.prototype.map` dan `Array.prototype.filter`adalah fungsi urutan yang lebih tinggi (Hanya untuk beberapa nama). Anda dapat memeriksa beberapa artikel saya sebelumnya untuk mempelajari lebih lanjut tentang objek dan fungsi urutan lebih tinggi dalam JavaScript ...
 
 ### Closing Notes
-Demikianlah sedikit tulisan sederhana tentang funsi dasar javascript yang bisa saya share kepada semua pembaca, Sekaligus artikel ini adalah arikel pertama di blog saya di tahun 2019 ini, Terimakasih 
+Demikianlah sedikit tulisan sederhana tentang fungsi dasar javascript yang bisa saya share kepada semua pembaca, Sekaligus artikel ini adalah arikel pertama di blog saya di tahun 2019 ini, Terimakasih 
