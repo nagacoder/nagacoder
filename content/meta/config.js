@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: "Darvin Sinaga - Aku Dimana?", // <title>
-  shortSiteTitle: "HeroBlog - GatsbyJS starter", // <title> ending for posts and pages
-  siteDescription: "HeroBlog is a GatsbyJS starter.",
+  shortSiteTitle: "Darvin Sinaga", // <title> ending for posts and pages
+  siteDescription: "Just a simple man",
   siteUrl: "https://nagacoder.netlify.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
@@ -13,7 +13,7 @@ module.exports = {
 
   /* info */
   headerTitle: "Darvin Sinaga",
-  headerSubTitle: "Frontend Enginer,Anti Wibu-wibu club ",
+  headerSubTitle: "Frontend Enginer",
 
   /* manifest.json */
   manifestName: "Darvin - Sinaga",

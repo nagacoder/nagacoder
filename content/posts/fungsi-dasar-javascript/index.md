@@ -1,5 +1,5 @@
 ---
-title: Memahami dasar dasar function di javascript -Darvin Sinaga 
+title: Memahami dasar dasar function di javascript 
 category: "Javascript"
 cover: dasar-js.jpg
 author: Darvin Sinaga
