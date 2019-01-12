@@ -2,7 +2,7 @@ module.exports = {
   siteTitle: "Darvin Sinaga - Aku Dimana?", // <title>
   shortSiteTitle: "Darvin Sinaga", // <title> ending for posts and pages
   siteDescription: "Personal blog by Darvin Sinaga. I explain with words and code",
-  siteUrl: "darvinsinaga.com",
+  siteUrl: "http://darvinsinaga.com",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
