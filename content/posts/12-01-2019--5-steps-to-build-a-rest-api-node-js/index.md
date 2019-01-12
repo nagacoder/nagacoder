@@ -5,11 +5,6 @@ cover: nodejs.jpeg
 author: Darvin Sinaga
 ---
 
-[<img src="https://images.unsplash.com/photo-1468817814611-b7edf94b5d60?dpr=2&auto=format&fit=crop&w=1080&h=1620&q=80&cs=tinysrgb&crop=&bg=">](
-https://unsplash.com/photos/9SoCnyQmkzInode)
-https://unsplash.com/photos/9SoCnyQmkzInode
-
-
 
 ## REST API?
 
