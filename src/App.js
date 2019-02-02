@@ -30,7 +30,7 @@ class App extends Component {
                   <span className="line"></span>
                 </div>
               </div>
-              <ul className="main-nav show-it">
+              <ul className="main-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">About</a></li>
