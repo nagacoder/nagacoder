@@ -57,7 +57,7 @@ class Home extends Component {
               <h3>Frontend Engineer <span style={{
                 color:'#c5c2c2'
               }}>from</span> Batam</h3>
-              <a href="#" className="btn btn-lg btn-primary">hire me</a>
+              <a href="https://www.linkedin.com/in/darvinsinaga" className="btn btn-lg btn-primary">hire me</a>
               <ul className="social-links">
                 <li className="label">Join me here</li>
                 <li><a href="https://twitter.com/nagacoder"><img src={Twitter}/></a></li>
