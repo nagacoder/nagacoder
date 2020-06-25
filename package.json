@@ -64,10 +64,5 @@
     "note": "node scripts/new-note.js",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "yarn build && yarn deploy"
-    }
   }
 }
