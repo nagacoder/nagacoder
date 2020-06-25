@@ -1,19 +1,14 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [lihautan.com](http://lihautan.com)
 
-## Available Scripts
+My personal blog. Generated from [Gatsby's blog starter](https://github.com/gatsbyjs/gatsby-starter-blog).
 
-In the project directory, you can run:
+To run locally, `yarn` and `yarn dev`, then open `http://localhost:8000`.
 
-### `npm start`
+## Notes
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can find [my notes here](./content/notes).
+They are unstructured, inspired by [@swyx](https://github.com/sw-yx)'s [daily notes](https://github.com/sw-yx/sw-yx.github.io/tree/20f471fbeca350fb5f397aafb71ada9075b9fac0/_posts). It's going to be my daily notes of little things that I learned, discovered, or having in my mind.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Issue
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
+If you find any typos or you have any comments on the articles, please feel free to [open an issue](https://github.com/tanhauhau/tanhauhau.github.io/issues/new/choose).

@@ -1,0 +1,15 @@
+/* smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* beyond modes */
+img {
+  z-index: 1;
+}
+span.emoji,
+.gatsby-highlight,
+p.filename {
+  z-index: 1;
+  position: relative;
+}
