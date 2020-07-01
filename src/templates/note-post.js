@@ -16,7 +16,7 @@ class NotePostTemplate extends React.Component {
     } = this.props.data;
     const { previous, next } = this.props.pageContext;
     return (
-      <Layout location={this.props.location} title="Li Hau's Notes">
+      <Layout location={this.props.location} title="Darvin">
         <SEO title={noteTitle} description={excerpt} />
         <h1>
           <span style={{ ...scale(1 / 2) }}>[{noteDate}]</span> {noteTitle}

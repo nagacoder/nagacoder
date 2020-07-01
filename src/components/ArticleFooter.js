@@ -37,7 +37,7 @@ export default function ArticleFooter({ url }) {
 
 function getGoodTweetLink(url) {
   return `https://twitter.com/intent/tweet?text=${encodeURIComponent(
-    'Insightful article from @lihautan'
+    'Insightful article from @nagacoder'
   )}&url=${url}`;
 }
 

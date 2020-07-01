@@ -15,10 +15,10 @@ function Projects({ data, location }) {
       hideScrollIndicator
     >
       <SEO
-        title="Li Hau's Projects"
+        title="Projects"
         keywords={[`blog`, `gatsby`, `javascript`, `react`, 'projects']}
       />
-      <h1>Li Hau's Projects</h1>
+      <h1>Projects</h1>
       {projects.map(
         ({
           node: {

@@ -13,11 +13,11 @@ function BlogIndex({ data, location }) {
   return (
     <Layout location={location} title={siteTitle} hideScrollIndicator>
       <SEO
-        title="Li Hau's Blog"
+        title="Blog"
         keywords={[`blog`, `gatsby`, `javascript`, `react`]}
       />
       <h1>
-        Li Hau's Blog{' '}
+        Darvin Blog's Blog{' '}
         <a href="/blog-rss.xml" target="_blank">
           <svg
             viewBox="0 0 30 30"

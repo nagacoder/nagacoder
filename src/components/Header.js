@@ -59,7 +59,7 @@ function Header({ siteTitle, hide, hideScrollIndicator }) {
             </li>
             <li className={styles.spacer} />
             <li>
-              <a className={styles.link} href="https://twitter.com/lihautan">
+              <a className={styles.link} href="https://twitter.com/nagacoder">
                 <svg viewBox="0 0 24 24" className={styles.icon}>
                   <path
                     d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66
@@ -70,7 +70,7 @@ function Header({ siteTitle, hide, hideScrollIndicator }) {
               </a>
             </li>
             <li>
-              <a className={styles.link} href="https://github.com/tanhauhau">
+              <a className={styles.link} href="https://github.com/nagacoder">
                 <svg viewBox="0 0 24 24" className={styles.icon}>
                   <path
                     d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0

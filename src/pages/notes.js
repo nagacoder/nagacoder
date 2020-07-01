@@ -15,10 +15,10 @@ function NoteIndex({ data, location }) {
       hideScrollIndicator
     >
       <SEO
-        title="Li Hau's Notes"
+        title="Notes"
         keywords={[`blog`, `gatsby`, `javascript`, `react`, 'notes']}
       />
-      <h1>Li Hau's Notes</h1>
+      <h1> Notes</h1>
       {notes.map(({ node: { fields: { slug, noteDate, noteTitle } } }) => {
         return (
           <h4
