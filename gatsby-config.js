@@ -134,6 +134,7 @@ module.exports = {
                   node { 
                     fields { 
                       slug
+                      
                      }
                     frontmatter {
                       date
