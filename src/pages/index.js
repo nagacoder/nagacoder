@@ -12,8 +12,10 @@ function Index({ data, location }) {
   const {
     portfolios: { edges: portfolios },
     blogs: { edges: blogs },
+    notes: { edges: notes },
     // talks: { edges: talks },
   } = data;
+  console.log(data)
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -96,10 +98,10 @@ function Index({ data, location }) {
         </li>
       </ul>
 
-      {/* <h3>
+      <h3>
         Recent Articles{' '}
         <span role="img" className="emoji">
-          {'📚'}
+          {'📖'}
         </span>
       </h3>
       <p className={styles.p}>Thoughts and lessons I've learned:</p>
@@ -117,8 +119,28 @@ function Index({ data, location }) {
           </Link>
         </li>
       </ul>
-
       <h3>
+      Diary{' '}
+        <span role="img" className="emoji">
+          {'✍🏻'}
+        </span>
+      </h3>
+      <ul style={{ marginBottom: rhythm(0.25) }}>
+        {notes.map(({ node: { frontmatter: { title }, fields: { slug } } }) => {
+          return (
+            <li className={styles.list} key={slug}>
+              <Link to={slug}>{title}</Link>
+            </li>
+          );
+        })}
+        <li className={styles.list}>
+          <Link style={{ textDecoration: 'none' }} to="/notes/">
+            ... Read more
+          </Link>
+        </li>
+      </ul>
+
+      {/* <h3>
         Open Source{' '}
         <span role="img" className="emoji">
           {'❤️'}
@@ -212,6 +234,25 @@ export const pageQuery = graphql`
     talks: allMarkdownRemark(
       filter: { fields: { type: { eq: "talk" }, wip: { ne: true } } }
       sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3
+    ) {
+      edges {
+        node {
+          fields {
+            slug
+          }
+          frontmatter {
+            date(formatString: "MMMM DD, YYYY")
+            title
+            
+          }
+        }
+      }
+    }
+    notes: allMarkdownRemark(
+      filter: { fields: { type: { eq: "notes" }, wip: { ne: true } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 3
     ) {
       edges {
         node {

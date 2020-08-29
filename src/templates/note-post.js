@@ -14,12 +14,13 @@ class NotePostTemplate extends React.Component {
         fields: { noteDate, noteTitle },
       },
     } = this.props.data;
+    console.log(this.props.data)
     const { previous, next } = this.props.pageContext;
     return (
       <Layout location={this.props.location} title="Darvin">
         <SEO title={noteTitle} description={excerpt} />
         <h1>
-          <span style={{ ...scale(1 / 2) }}>[{noteDate}]</span> {noteTitle}
+          {noteTitle}
         </h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <hr
@@ -40,14 +41,14 @@ class NotePostTemplate extends React.Component {
           <li>
             {previous && (
               <Link to={previous.fields.slug} rel="prev">
-                ← [{previous.fields.noteDate}] {previous.fields.noteTitle}
+                ←  {previous.fields.noteTitle}
               </Link>
             )}
           </li>
           <li>
             {next && (
               <Link to={next.fields.slug} rel="next">
-                [{next.fields.noteDate}] {next.fields.noteTitle} →
+                {next.fields.noteTitle} →
               </Link>
             )}
           </li>
@@ -72,7 +73,8 @@ export const pageQuery = graphql`
       excerpt(pruneLength: 160)
       fields {
         noteDate
-        noteTitle
+        noteTitle,
+        
       }
       frontmatter {
         title

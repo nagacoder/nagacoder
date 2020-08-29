@@ -19,6 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
                 noteDate
                 noteTitle
                 wip
+                
               }
               frontmatter {
                 title
@@ -144,7 +145,7 @@ exports.createPages = async ({ graphql, actions }) => {
 };
 
 const regexp = new RegExp(`^${__dirname}/content/([^/]+)/`);
-const noteRegexp = new RegExp('(\\d{4}-\\d{2}-\\d{2})\\s+-\\s+(.+).md$');
+// const noteRegexp = new RegExp('(\\d{4}-\\d{2}-\\d{2})\\s+-\\s+(.+).md$');
 const SLUG_PREFIX = { notes: '/notes' };
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
@@ -174,21 +175,23 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     });
 
     if (postType === 'notes') {
+      
       // create date and title out of filename
-      const noteRegexpMatch = node.fileAbsolutePath.match(noteRegexp);
-      if (noteRegexpMatch) {
-        const [_, date, noteTitle] = noteRegexpMatch;
+      // const noteRegexpMatch = node.fileAbsolutePath.match(noteRegexp);
+      // if (noteRegexpMatch) {
+        // const [_, date, noteTitle] = noteRegexpMatch;
         createNodeField({
           name: 'noteDate',
           node,
-          value: date,
+          value: node.frontmatter['date'],
         });
         createNodeField({
           name: 'noteTitle',
           node,
-          value: noteTitle,
+          value: node.frontmatter['title'],
         });
-      }
+        
+      // }
     }
 
     if (postType === 'portfolios') {

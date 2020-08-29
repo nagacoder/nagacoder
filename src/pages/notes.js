@@ -7,7 +7,7 @@ import { rhythm } from '../utils/typography';
 
 function NoteIndex({ data, location }) {
   const notes = data.allMarkdownRemark.edges;
-
+  console.log(data);
   return (
     <Layout
       location={location}
@@ -19,21 +19,31 @@ function NoteIndex({ data, location }) {
         keywords={[`blog`, `gatsby`, `javascript`, `react`, 'notes']}
       />
       <h1> Notes</h1>
-      {notes.map(({ node: { fields: { slug, noteDate, noteTitle } } }) => {
-        return (
-          <h4
-            key={slug}
-            style={{
-              marginBottom: rhythm(0.75),
-              marginTop: rhythm(0.75),
-            }}
-          >
-            <Link style={{ boxShadow: `none` }} to={slug}>
-              {`[${noteDate}] ${noteTitle}`}
-            </Link>
-          </h4>
-        );
-      })}
+      {notes.map(
+        ({
+          node: {
+            fields: { slug, noteDate, noteTitle },
+          },
+        }) => {
+          return (
+            <div
+              style={{
+                marginTop: rhythm(0.45),
+              }}
+            >
+              <div key={slug}>
+                <Link style={{ boxShadow: `none` }} to={slug}>
+                  {`${noteTitle}`}
+                </Link>
+              </div>
+              <div style={{
+                marginTop: rhythm(-0.15),
+                fontSize:rhythm(0.45)
+              }}>{`${noteDate}`}</div>
+            </div>
+          );
+        }
+      )}
     </Layout>
   );
 }
