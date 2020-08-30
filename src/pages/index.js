@@ -15,7 +15,7 @@ function Index({ data, location }) {
     notes: { edges: notes },
     // talks: { edges: talks },
   } = data;
-  console.log(data)
+ 
 
   return (
     <Layout location={location} title={siteTitle}>
