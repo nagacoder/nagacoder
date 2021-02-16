@@ -13,7 +13,7 @@ function Bio() {
   return (
     <StaticQuery
       query={bioQuery}
-      render={data => {
+      render={(data) => {
         const { author } = data.site.siteMetadata;
         return (
           <div
@@ -50,14 +50,14 @@ function Bio() {
 
 const bioQuery = graphql`
   query BioQuery {
-    avatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
+    avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
           ...GatsbyImageSharpFixed
         }
       }
     }
-    largeAvatar: file(absolutePath: { regex: "/profile-pic.png/" }) {
+    largeAvatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
         fixed(width: 230, height: 230) {
           ...GatsbyImageSharpFixed

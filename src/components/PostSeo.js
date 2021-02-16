@@ -35,7 +35,7 @@ function SEO({
         }
         file(
           sourceInstanceName: { eq: "assets" }
-          relativePath: { eq: "profile-pic.png" }
+          relativePath: { eq: "profile-pic.jpg" }
         ) {
           publicURL
         }
@@ -44,7 +44,9 @@ function SEO({
   );
 
   const metaDescription = description || site.siteMetadata.description;
-  const metaImage = `${site.siteMetadata.siteUrl}${twitterImage || image || profilePicture}`;
+  const metaImage = `${site.siteMetadata.siteUrl}${
+    twitterImage || image || profilePicture
+  }`;
   const metaKeywords = post.tags ? post.tags.split(',') : [];
 
   return (
