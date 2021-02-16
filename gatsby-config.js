@@ -3,7 +3,6 @@ const PrismJs = require('prismjs');
 global.Prism = PrismJs;
 require('prism-svelte');
 
-
 module.exports = {
   siteMetadata: {
     title: `Darvin`,
@@ -18,7 +17,7 @@ module.exports = {
     },
   },
   plugins: [
-    ...['blog', 'notes', 'portfolios'].map(type => ({
+    ...['blog', 'notes', 'portfolios'].map((type) => ({
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/${type}`,
@@ -97,12 +96,13 @@ module.exports = {
             outputFile: 'talk-rss.xml',
             include: false,
           },
-        ].map(feed => {
+        ].map((feed) => {
           return {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.edges.map(edge => {
+              return allMarkdownRemark.edges.map((edge) => {
                 return Object.assign({}, edge.node.frontmatter, {
-                  description: edge.node.frontmatter.description || edge.node.excerpt,
+                  description:
+                    edge.node.frontmatter.description || edge.node.excerpt,
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
@@ -165,7 +165,7 @@ module.exports = {
         background_color: `#faf0fd`,
         theme_color: `#612e77`,
         display: `fullscreen`,
-        icon: `content/assets/profile-pic.png`,
+        icon: `content/assets/profile-pic.jpg`,
       },
     },
     `gatsby-plugin-offline`,
