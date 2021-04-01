@@ -1,5 +1,5 @@
 ---
-title: Arahkan peluru pertama mu pada cermin. Tersangka utama yg sekian lama kamu cari biasanya ada disana | JRX
+title: Buatlah program untuk mengetahui bilang ganjil atau genap.
 date: "2021-04-02"
 ---
 
