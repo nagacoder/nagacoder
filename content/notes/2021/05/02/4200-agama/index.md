@@ -1,5 +1,5 @@
 ---
-title:Dari 4,200 Agama.
+title: Dari 4,200 Agama.,
 date: "2021-05-02"
 ---
 
