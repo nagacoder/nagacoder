@@ -9,7 +9,7 @@
 ## Hi There, i am Darvin Sinaga <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
 
 
-I am Bagus Darvin Sinaga. I am an undergraduate student of Computer Science at University  of Binus. Currently i am working as Software Engineer at ProSpace.
+I am  Darvin Sinaga. I am an undergraduate student of Computer Science at University  of Binus. Currently i am working as Software Engineer at ProSpace.
 
 - I'm from Batam, Indonesia (Currently living in Palembang)
 - I love ⚛ React, and I build projects with ⚛ React.
