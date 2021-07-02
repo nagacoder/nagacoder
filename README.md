@@ -9,7 +9,7 @@
 ## Hi There, i am Darvin Sinaga <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
 
 
-I am  Darvin Sinaga. I am an undergraduate student of Computer Science at University  of Binus. Currently i am working as Software Engineer at ProSpace.
+I am  Darvin Sinaga. I am an undergraduate student of Computer Science at Binus University. Currently i am working as Software Engineer at ProSpace.
 
 - I'm from Batam, Indonesia (Currently living in Palembang)
 - I love ⚛ React, and I build projects with ⚛ React.
@@ -28,4 +28,3 @@ I am  Darvin Sinaga. I am an undergraduate student of Computer Science at Univer
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=nagacoder&show_icons=true&theme=blue-green">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nagacoder&show_icons=true&theme=blue-green&layout=compact">
-<a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=nagacoder" alt="nagacoder" /></a></p>
