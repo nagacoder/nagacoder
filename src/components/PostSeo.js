@@ -35,7 +35,7 @@ function SEO({
         }
         file(
           sourceInstanceName: { eq: "assets" }
-          relativePath: { eq: "profile-pic.png" }
+          relativePath: { eq: "profile-pic.jpg" }
         ) {
           publicURL
         }
