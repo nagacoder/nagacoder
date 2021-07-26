@@ -30,7 +30,7 @@ function Index({ data, location }) {
       </h3>
       <ul style={{ marginBottom: rhythm(0.25) }}>
         <li className={styles.list}>
-          {`I'm from Batam, Indonesia `}
+          {`I'm from Palembang, Indonesia `}
           <span role="img" className="emoji">
             {'🇮🇩'}
           </span>
@@ -49,6 +49,9 @@ function Index({ data, location }) {
           </span>
           {' React.'}
         </li>
+        <li className={styles.list}>
+        I love connecting with people and helping people connect with each other. For me, nothing is better than when people can come together, share, and help each other be more awesome
+        </li> 
         {/* <li className={styles.list}>
           I contribute to open source projects, such as{' '}
           <a
@@ -87,7 +90,7 @@ function Index({ data, location }) {
           </a>
           {' and '}
           <a
-            href={`https://www.linkedin.com/in/darvinsinaga/`}
+            href={`https://www.linkedin.com/in/nagacoder/`}
             aria-label="Linkedin"
             target="_blank"
             rel="noreferrer noopener"
