@@ -8,7 +8,7 @@
 
 I am Vin. I am an undergraduate student of Computer Science at Binus University.
 
-- I'm Frontend Developer at [DBS Bank](https://dbs.com)
+- I'm Java Developer at [DBS Bank](https://dbs.com)
 - I'm from Batam, Indonesia (Currently living in Jakarta)
 - I love ⚛ React, and I build projects with ⚛ React.
 - My Resume : [Download](https://drive.google.com/file/d/1a6rEP6dDz1NGHq1qkm7T7wr6hX4H0N2o/view)
@@ -19,6 +19,7 @@ I am Vin. I am an undergraduate student of Computer Science at Binus University.
 - 🌐 Instagram : https://instagram.com/nagacoder
 - 📌 Jakarta, Indonesia
 - 📎 Frontend Developer
+- 📎 Backend Developer
 
 [![nagacoder wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=nagacoder)](https://github.com/anuraghazra/github-readme-stats)
 
