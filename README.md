@@ -1,12 +1,7 @@
-<!-- <p align="center">
-<a href="https://darvinsinaga.com" target="_blank">
-  <img src="https://raw.githubusercontent.com/sultanzio/sultanzio/main/corsair-wallpaper-previewf.jpg">
-</a>
-</p> -->
 
-## Hi There, i am Vin <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
+## Hi There, <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
 
-I am Vin. I am an undergraduate student of Computer Science at Binus University.
+I am Darvin Singh. I am an undergraduate student of Computer Science at Binus University.
 
 - I'm Java Developer at [DBS Bank](https://dbs.com)
 - I'm from Batam, Indonesia (Currently living in Jakarta)
