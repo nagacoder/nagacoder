@@ -1,27 +1,32 @@
 
 ## Hi There, <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
 
-I am Darvin Singh. I am an undergraduate student of Computer Science at Binus University.
+-----BEGIN PGP PUBLIC KEY BLOCK-----
 
-- I'm Java Developer at [DBS Bank](https://dbs.com)
-- I'm from Batam, Indonesia (Currently living in Jakarta)
-- I love ⚛ React, and I build projects with ⚛ React.
-- My Resume : [Download](https://drive.google.com/file/d/1a6rEP6dDz1NGHq1qkm7T7wr6hX4H0N2o/view)
-
-### About me :
-
-- 📘 Linkedin : https://www.linkedin.com/in/nagacoder/
-- 🌐 Instagram : https://instagram.com/nagacoder
-- 📌 Jakarta, Indonesia
-- 📎 Frontend Developer
-- 📎 Backend Developer
-
-[![nagacoder wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=nagacoder)](https://github.com/anuraghazra/github-readme-stats)
-
-### Languages and Detail
-
-<p>
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=nagacoder&count_private=true&show_icons=true&bg_color=F6F8FA&title_color=5069DF&hide=issues&icon_color=EB445E"/>
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nagacoder&layout=compact&langs_count=10"/>
-
-</p>
+mQINBGdLRC0BEAC98FvBZDfAzOm3beq+CjZbYbrUVTUbXau3h+HwPBEGZCf/a1Cp
+Vm67j8T3GJocymc8dXf80LeIUjoFsMtCpFq/jh25S3J396lbx//CeIAJLi/hpSIF
+HnWnQgT3BkmoL/nFTfRBW1CNDUFvrUf40kSnU3azz932G89HVL3wOo2CriDye7hW
+x9XtxpTioi4wfJkDDjmHAOA7UtHm456IPsH8rwXEFkXER8rwT2jxZ0erYpo5z6LV
+fDKQC9S9We1WIrU00Ef+b5vTXRRpkGV9OYWQNOMovBIihXsgld7/SuIQPNniQpyV
+DTHvMrDRghIW04NprShShAc1Usd6ZZW1DAGvOAIKWdhwQtrJY4XJziPdx1tbdGdS
+eujwVxYcJO9IAn3VlreGRfHN8YHrMxp4t810v5UUmJMxe0b3/GzLlZYwHOVYZpPx
+8RElxpACn0JwHEvGl+1c2rMaOHEa6XQzhOh/hMYW+4pQXAgWsFCUCn2YV+pLHDcc
+vkwoDeeCSN7uNQC7dmhd8GvZLjC94+FPhq2sHJWD7M6O9QOv7eU8BufddRgOMkpu
+Ma2gqxWNkMH9ZfN8gLJWYpGQ9YsprpFy4VPurYNke1iIHYkD650g+npjoRRcoCRw
+2iFhsFBKuDB9ZC5X7Kg5cpxIFHPaqi2MqJ9Vr33rl6bgm/TmOlLBYm0mSwARAQAB
+tCFuYWdhY29kZXIgPG5hZ2Fjb2RlckBvdXRsb29rLmNvbT6JAlcEEwEIAEEWIQRD
++LyxE3dUdmnyfY9d7jttvAsBfgUCZ0tELQIbAwUJBaOagAULCQgHAgIiAgYVCgkI
+CwIEFgIDAQIeBwIXgAAKCRBd7jttvAsBfheVD/9S/k7UofmC5T9EbfooPcXcVaTN
+DcnhQXV8pEt0rOdg/GcAfbTX+z8sT6sRn/qNPhXy1U9N/T5XEFlP/9sTnSknu7rL
+41jsMRGec+MZ1ZKZvPEu4wDbrWPuSwjZffhs7UAcSet/mCNCzXV28b+Ge7lI7b5C
+nlGibz+M1f65VJoDodWoonO7wZ97QDKEDO6MmBr2r7iJWcCd2mFd56sSSEAr+dsy
+UkwzXio1Iw4YcApfPsdEJXIV9ex/kNP01M27dhPy98yflnhZuqNpTA6O+JGxstL+
+nTChRNBy1zJadLF6IRbvwQZcjbkh8Cm/GQFgyQEJ1Ou4bn/z1JRVG2hJLptofhcX
+M+q08JVTLGqEBcm4aowHGjRkZX+1ZdFZihYf5tcAQIHZ5Z4pMf7cO8fQrNdC2CxK
+cMHAJQcXTSxaTeP/6M0LBQdLVi4SeS63OqrvdP+J/5/odjRT0ZhEoF6Ddlw1bwtZ
+Xciz/op9h6ShrEBmotHDsJzjyUJBWg/C/MDmK2kdTUOjyNIb4B7gZzmtgvuJqr5G
+xumfEXIUx0ip162kVn06THnBHhCdhY0OrNoR9dTpo6TDo1vYKSI7zm4JsBZSJDz2
+0/wqwEfbVzvQI01bw/CUKbhbNhJc391RowxjGf/CTzaX5fwPFUidRJUXlGgx+PjU
+mnnqeqxz8hX9EazlRg==
+=tg8b
+-----END PGP PUBLIC KEY BLOCK-----
