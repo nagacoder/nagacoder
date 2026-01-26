@@ -1,25 +1,24 @@
 
 
-## Hi There, i am Elian <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
+## Hi There, I am Darvin <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px">
 
-I am Elian Riu. 
-- I'm Java Developer at [Banking Company](https://github.com/elianriu)
-- I'm from Batam, Indonesia (Currently living in Jakarta)
-- I love ⚛ React, and I build projects with ⚛ React.
-- I love making video about programing [My Youtube Channel](https://www.youtube.com/@elianriu)
-
+I am Darvin S.
+- I'm IT Consultant at [IBM](https://www.ibm.com)
+- I'm based in Singapore
+- I love building full-stack applications with React, Next.js, and Spring Boot
+- DBS Tech Hero 2024 - Most Versatile
 
 ### About me :
-- 🌐 Instagram : https://instagram.com/elianriu
-- 📌 Jakarta, Indonesia
-- 📎 Fullstack Developer
+- 🌐 LinkedIn : https://www.linkedin.com/in/nagacoder
+- 📌 Singapore
+- 📎 IT Consultant | Full-Stack Engineer | Microservices Architect
 
-[![elianriu wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=elianriu)](https://github.com/anuraghazra/github-readme-stats)
+[![nagacoder wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=nagacoder)](https://github.com/anuraghazra/github-readme-stats)
 
 ### Languages and Detail
 
 <p>
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=elianriu&count_private=true&show_icons=true&bg_color=F6F8FA&title_color=5069DF&hide=issues&icon_color=EB445E"/>
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=elianriu&layout=compact&langs_count=10"/>
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=nagacoder&count_private=true&show_icons=true&bg_color=F6F8FA&title_color=5069DF&hide=issues&icon_color=EB445E"/>
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nagacoder&layout=compact&langs_count=10"/>
 
 </p>
