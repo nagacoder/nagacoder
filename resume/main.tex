@@ -6,7 +6,7 @@
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
-\usepackage[empty]{fullpage}
+\usepackage[margin=1in]{geometry}
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
@@ -103,96 +103,75 @@
 %---------- HEADING ----------
 
 \begin{center}
-    \textbf{\Huge \scshape Elian Riu} \\ \vspace{3pt}
+    \textbf{\Huge \scshape YourName} \\ \vspace{3pt}
     \small
-    \faAt \hspace{.5pt} \href{mailto:sinagadarvin@gmail.com}{sinagadarvin@gmail.com}
+    \faPhone \hspace{.5pt} {+65 xxxxxxx}
     $|$
-    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/elianriu}{linkedin.com/in/elianriu}
+    \faAt \hspace{.5pt} \href{mailto:xxxxxx@gmail.com}{xxxxxxx@gmail.com}
     $|$
-    \faGithub \hspace{.5pt} \href{https://github.com/elianriu}{github.com/elianriu}
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/xxxxxxx}{linkedin.com/in/xxxxxxx}
     $|$
-    \faMapMarker \hspace{.5pt}{Jakarta, Indonesia}
+    \faMapMarker \hspace{.5pt}{Tampines, Singapore}
 \end{center}
 
 %----------- SUMMARY -----------
 
 \section{Professional Summary}
   \vspace{2pt}
-  \small{Full-stack software engineer with 8+ years of experience building scalable web applications and leading development teams. Expertise in React, TypeScript, Java Spring Boot, and modern DevOps practices.}
+  \small{Full-stack software engineer with 8+ years of experience building scalable web applications and leading development teams. Expertise in React, TypeScript, Java Spring Boot, and modern DevOps practices. Has worked onsite across Singapore and Indonesia in enterprise banking and product environments.}
+  \vspace{4pt}
 
-%----------- EDUCATION -----------
-
-\section{Education}
-  \vspace{2pt}
-  \resumeSubHeadingListStart
-    \resumeEducationHeading
-      {Binus University}
-      {Jakarta, Indonesia}
-      {Bachelor of Computer Science, GPA: 3.48/4.0}
-      {Expected Aug 2025}
-      \resumeItemListStart
-        \resumeItem{\textbf{Relevant Coursework:} Data Structures and Algorithms, Object-Oriented Programming, Software Design Patterns, Web Programming, Software Engineering, Database Systems, Data Science}
-      \resumeItemListEnd
-  \resumeSubHeadingListEnd
-
-%----------- TECHNICAL SKILLS -----------
-
-\section{Technical Skills}
-  \vspace{1pt}
-  \resumeSubHeadingListStart
-    \small{\item{
-        \textbf{Languages:}{ JavaScript, TypeScript, Java, SQL, HTML/CSS} \\ \vspace{2pt}
-        
-        \textbf{Frontend:}{ React.js, Next.js, Vue.js, Angular, React Native, Redux, React Query, Chakra UI, Tailwind CSS} \\ \vspace{2pt}
-        
-        \textbf{Backend:}{ Node.js, Express.js, NestJS, Spring Boot, GraphQL, RESTful APIs} \\ \vspace{2pt}
-        
-        \textbf{Databases:}{ MongoDB, PostgreSQL, MySQL} \\ \vspace{2pt}
-        
-        \textbf{DevOps \& Tools:}{ Git, GitHub Actions, Jenkins, Docker, AWS (EC2, S3), Digital Ocean, CI/CD} \\ \vspace{2pt}
-        
-        \textbf{Testing:}{ Jest, Unit Testing, Integration Testing, Security Testing (Pentest)} \\ \vspace{2pt}
-        
-        \textbf{Methodologies:}{ Agile, Scrum, Code Review, Test-Driven Development} \\ \vspace{2pt}
-    }}
-  \resumeSubHeadingListEnd
+  \textbf{Key Expertise:}
+  \begin{itemize}[leftmargin=0.2in, itemsep=-2pt, topsep=2pt]
+    \small
+    \item Experience in developing scalable web applications using Java Spring Boot, Node.js, TypeScript, and React/Next.js.
+    \item Strong background in microservices architecture, REST APIs, and enterprise banking systems.
+    \item Experience in system migration, deployment lifecycle, and high-availability system design.
+    \item UI development using React, TypeScript, and modern frontend frameworks.
+    \item Hands-on DevOps practices including CI/CD, Docker, and AWS deployment.
+  \end{itemize}
 
 %----------- WORK EXPERIENCE -----------
 
 \section{Professional Experience}
   \resumeSubHeadingListStart
-    
+
+    \resumeSubheading
+      {IBM}{Singapore (Onsite)}
+      {Software Engineer Consultant (Contract)}{Jan 2026 -- Present}
+        \resumeItemListStart
+            \resumeItem{Engaged by IBM as consultant for a banking client, leading migration of legacy TIBCO BusinessWorks (BW) integration layer to modern Java Spring Boot microservices}
+            \resumeItem{Leveraged Claude agentic AI to accelerate TIBCO-to-Spring Boot conversion, automating translation of BW processes into hexagonal architecture patterns}
+            \resumeItem{Implemented batch processing, job scheduling, and event-driven workflows using Spring Batch and Spring Scheduler as part of the migration}
+            \resumeItem{Designed target-state services following hexagonal (ports and adapters) architecture to ensure clean separation of domain logic from infrastructure}
+        \resumeItemListEnd
+
     \resumeSubheading
       {DBS Bank}{Jakarta, Indonesia}
-      {Senior Associate, Microservices Engineer (Investment Domain)}{Feb 2025 -- Present}
+      {Senior Associate, Microservices Engineer (Investment Domain)}{Feb 2025 -- Dec 2025}
         \resumeItemListStart
-            \resumeItem{Manage end-to-end deployment lifecycle for 16 microservices across UAT and production environments}
-            \resumeItem{Lead investment domain microservices architecture, ensuring high availability and scalability for banking services}
-            \resumeItem{Architect and implement security solutions including penetration testing frameworks, improving application security posture}
-            \resumeItem{Maintain 80\%+ code coverage standards through comprehensive unit and integration testing strategies}
+            \resumeItem{\textbf{MDID Wealth / Investment (1 Year):} Led 16 wealth microservices under Multicluster Indonesia migration, covering batch processing, ENaaS integration, database, scheduling, and Kafka-based event streaming}
+            \resumeItem{Managed end-to-end deployment lifecycle across UAT and production environments, ensuring high availability and scalability}
+            \resumeItem{Architected and implemented security solutions including penetration testing frameworks, improving application security posture}
+            \resumeItem{Maintained 80\%+ code coverage standards through comprehensive unit and integration testing strategies}
         \resumeItemListEnd
-        
+
     \resumeSubSubheading
       {Associate, Backend Engineer (Kony Platform Core Team)}{Nov 2023 -- Feb 2025}
         \resumeItemListStart
-            \resumeItem{Awarded "DBS Tech Hero 2024" in Most Versatile category for exceptional adaptability and technical expertise}
-            \resumeItem{Core team member for Kony, enterprise omnichannel platform supporting critical banking domains: Payment, Onboarding, Card and Loan, Security, Deposit, and Investment}
-            \resumeItem{Successfully led migration of Kony platform from legacy Java 8 stack to Java 17, deployed on JBoss 8 application server}
-            \resumeItem{Designed and deployed robust penetration testing solutions, enhancing security across banking applications}
+            \resumeItem{\textbf{DBID Kony Platform (2 Years):} Migrated Kony Indonesia from JBoss 7 to JBoss 8; designed security remediation solutions for annual penetration testing and supported multi-squad UAT delivery (ForgeRock offload, FORT migration, Honeycomb)}
+            \resumeItem{Core team member for enterprise omnichannel platform supporting Payment, Onboarding, Card and Loan, Security, Deposit, and Investment domains}
             \resumeItem{Achieved and maintained 80\%+ functional and branch coverage, ensuring high code quality and platform reliability}
-            \resumeItem{Coordinate UAT support for 8 Indonesian development squads, ensuring quality deliverables and production readiness}
+            \resumeItem{Coordinated UAT support for 8 Indonesian development squads, ensuring quality deliverables and production readiness}
         \resumeItemListEnd
-        
+
     \resumeSubSubheading
       {Associate, Frontend Engineer}{May 2022 -- Nov 2023}
         \resumeItemListStart
-            \resumeItem{Served as key React developer for internet banking platform serving 1M+ active users across Indonesia}
-            \resumeItem{Architected and implemented React micro-frontend architecture, enabling modular and scalable frontend development}
-            \resumeItem{Collaborated with cross-regional teams (India, Singapore) to develop new features including Loan, Credit Card, and Investment modules}
-            \resumeItem{Engineered React-based web applications with seamless iOS/Android WebView integration for mobile platforms}
+            \resumeItem{\textbf{DBID SWeb (1 Year):} Served as React JS Lead for Indonesia, delivering Credit Card Onboarding (FRO) and Unsecured Lending modules with scalable and modular frontend architecture}
+            \resumeItem{Architected React micro-frontend architecture for internet banking platform serving 1M+ active users across Indonesia}
+            \resumeItem{Collaborated with cross-regional teams (India, Singapore) on Loan, Credit Card, and Investment modules}
             \resumeItem{Led team of 5 developers in feature development, conducting code reviews and providing technical guidance}
-            \resumeItem{Participated in security testing initiatives with penetration testing team to identify and resolve vulnerabilities}
-            \resumeItem{Maintained 80\% test coverage standard and resolved critical production issues with minimal downtime}
             \resumeItem{Conducted technical interviews for frontend developer positions across Indonesia and India regions}
         \resumeItemListEnd
     
@@ -245,6 +224,43 @@
     
   \resumeSubHeadingListEnd
 
+%----------- TECHNICAL SKILLS -----------
+
+\section{Technical Skills}
+  \vspace{1pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Languages:}{ JavaScript, TypeScript, Java, SQL, HTML/CSS} \\ \vspace{2pt}
+
+        \textbf{Frontend:}{ React.js, Next.js, Vue.js, Angular, React Native, Redux, React Query, Chakra UI, Tailwind CSS} \\ \vspace{2pt}
+
+        \textbf{Backend:}{ Node.js, Express.js, NestJS, Spring Boot, GraphQL, RESTful APIs} \\ \vspace{2pt}
+
+        \textbf{Databases:}{ MongoDB, PostgreSQL, MySQL} \\ \vspace{2pt}
+
+        \textbf{DevOps \& Tools:}{ Git, GitHub Actions, Jenkins, Docker, AWS (EC2, S3), Digital Ocean, CI/CD} \\ \vspace{2pt}
+
+        \textbf{Testing:}{ Jest, Unit Testing, Integration Testing, Security Testing (Pentest)} \\ \vspace{2pt}
+
+        \textbf{Methodologies:}{ Agile, Scrum, Code Review, Test-Driven Development} \\ \vspace{2pt}
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \resumeEducationHeading
+      {Binus University}
+      {Jakarta, Indonesia}
+      {Bachelor of Computer Science, GPA: 3.48/4.0}
+      {Expected Aug 2025}
+      \resumeItemListStart
+        \resumeItem{\textbf{Relevant Coursework:} Data Structures and Algorithms, Object-Oriented Programming, Software Design Patterns, Web Programming, Software Engineering, Database Systems, Data Science}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
 %----------- ACHIEVEMENTS -----------
 
 \section{Awards \& Recognition}
@@ -252,6 +268,7 @@
   \resumeSubHeadingListStart
     \small{\item{
         \textbf{DBS Tech Hero 2024 -- Most Versatile:}{ Recognized for exceptional technical adaptability and expertise across frontend, backend, and security domains} \\ \vspace{2pt}
+        \textbf{DBS Silver Titan Certification:}{ Obtained DBS Silver Titan Certification, responsible for reviewing secure code across domains} \\ \vspace{2pt}
     }}
   \resumeSubHeadingListEnd
 
