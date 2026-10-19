@@ -50,5 +50,4 @@ Backend-leaning full-stack engineer with **9+ years** of experience, 5 of them i
 -->
 
 ### 📊 GitHub stats
-
-[![GitHub Stats](https://github-stats-extended.vercel.app/api/wakatime?username=alan&langs_count=6&theme=light_github)](https://wakatime.com/@alan)
+[![GitHub Stats](https://github-stats-extended.vercel.app/api/wakatime?username=7f7ea325-ea19-4c45-b604-b09657799b0f&langs_count=6&display_format=percent&theme=light_github)](https://wakatime.com/@7f7ea325-ea19-4c45-b604-b09657799b0f)
